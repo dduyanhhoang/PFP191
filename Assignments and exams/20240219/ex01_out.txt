@@ -1,0 +1,12 @@
+➜ 20240219 git:(main) python .\ex01.py
+
+Enter a password:jasdhfkskjdfh                         
+Password must be between 6 and 12 characters long
+Enter a password:ajksdfhf
+Password must contain at least one special character
+Enter a password:ajksdfhf@
+Password must contain at least one digit
+Enter a password:ajksdfh9@ 
+Password must contain at least one uppercase letter
+Enter a password:ajksdfH9@ 
+{'Password': 'ajksdfH9@', 'Length': 9, 'Special': '@', 'Digit': '9', 'Upper': 'H', 'Lower': 'a'}
