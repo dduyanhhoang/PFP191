@@ -29,6 +29,7 @@ def get_employee(n: int) -> dict:
     
     return employees
 
+
 def sort_employee(e: dict) -> list:
     return sorted(e.items(), key=lambda x: x[1][1], reverse=True)
 
