@@ -1,3 +1,5 @@
+
+
 def get_employee(n: int) -> dict:
     emp_num = 0
     employees = dict()
@@ -22,7 +24,7 @@ def get_employee(n: int) -> dict:
             emp_num += 1
             employees[emp_code] = [name, salary]
         except ValueError as e:
-            print(e)
+            print(f"An error occurred while getting employees: {e}")
             continue
     
     return employees
